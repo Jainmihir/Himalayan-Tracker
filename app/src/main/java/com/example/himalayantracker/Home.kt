@@ -25,6 +25,7 @@ class Home : Fragment() {
             val intent = Intent(requireContext(),BookHotels::class.java)
             startActivity(intent)
         }
+
         return view
     }
 
