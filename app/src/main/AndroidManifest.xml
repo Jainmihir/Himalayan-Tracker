@@ -18,14 +18,9 @@
             android:name=".BookHotels"
             android:exported="false" />
         <activity
-            android:name=".Book_Hotels"
-            android:exported="false" />
-        <activity
             android:name=".CustomerService"
             android:exported="false" />
-        <activity
-            android:name=".Customer_Service"
-            android:exported="false" />
+
         <activity
             android:name=".DashBoard"
             android:exported="false" />

@@ -8,21 +8,13 @@
     tools:context=".BookHotels"
     tools:ignore="ExtraText">
 
-    <!-- SearchView -->
-    <SearchView
-        android:id="@+id/search_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:iconifiedByDefault="false"
-        android:queryHint="Search"/>
+
 
     <!-- RecyclerView for hotels -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/ht_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/search_view"
         android:padding="10dp"
         android:layout_margin="5dp"/>
 
